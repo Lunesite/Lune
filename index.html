@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LUNÉ - 品牌色調視覺指南</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@400;600&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #F8F5F2; /* 月光白 */
+        }
+        h1, h2, h3 {
+            font-family: 'Noto Serif TC', serif;
+        }
+        .color-card {
+            transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+        }
+        .color-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+        }
+        /* Style for the new logo to ensure it's visible on dark backgrounds */
+        .logo-on-dark {
+            filter: brightness(0) invert(1);
+        }
+    </style>
+</head>
+<body class="bg-[#F8F5F2] text-[#2C3E50]">
+
+    <div class="container mx-auto p-6 md:p-12">
+
+        <!-- Header Section -->
+        <header class="text-center mb-12">
+            <!-- === LOGO UPDATED HERE === -->
+            <img src="https://i.imgur.com/8Q5Yf6E.png" alt="LUNÉ Logo" class="mx-auto mb-6 w-48 h-auto">
+            <h1 class="text-4xl md:text-5xl font-semibold text-[#2C3E50]">LUNÉ</h1>
+            <p class="text-lg text-[#A9A9A9] mt-2">品牌色調視覺指南 | Brand Visual Identity</p>
+        </header>
+
+        <!-- Introduction -->
+        <section class="max-w-3xl mx-auto text-center mb-16">
+            <h2 class="text-3xl mb-4">色彩哲學</h2>
+            <p class="text-[#2C3E50] leading-relaxed">
+                LUNÉ 的色彩系統，源自於靜謐夜晚的詩意想像。我們捕捉了月光灑落的溫柔、夜空深邃的沉靜，以及星辰點綴的微光。這套色盤不僅定義了品牌的視覺，更傳遞了一種溫柔、自信且充滿故事感的品牌氛圍。
+            </p>
+        </section>
+
+        <!-- Color Palette Section -->
+        <section class="mb-16">
+            <!-- 主色 -->
+            <h3 class="text-2xl text-center mb-8 border-b-2 border-[#E1C4B9] pb-2">主色系 | Primary Colors</h3>
+            <div class="grid md:grid-cols-2 gap-8 mb-12">
+                <div class="color-card rounded-lg overflow-hidden shadow-lg bg-white">
+                    <div class="h-48" style="background-color: #E1C4B9;"></div>
+                    <div class="p-6">
+                        <h4 class="text-xl font-semibold">月塵玫瑰</h4>
+                        <p class="text-gray-500 mb-2">Moon-dust Rose</p>
+                        <p class="font-mono bg-gray-100 inline-block px-2 py-1 rounded-md text-sm">#E1C4B9</p>
+                        <p class="mt-4 text-sm">帶有灰調的乾燥玫瑰色，溫柔、沉靜且充滿女性氣質，是品牌感性的基石。</p>
+                    </div>
+                </div>
+                <div class="color-card rounded-lg overflow-hidden shadow-lg bg-white">
+                    <div class="h-48" style="background-color: #2C3E50;"></div>
+                    <div class="p-6">
+                        <h4 class="text-xl font-semibold text-white bg-[#2C3E50] -ml-6 -mr-6 -mt-6 p-6 rounded-t-lg">靜謐夜藍</h4>
+                        <p class="text-gray-500 mb-2 mt-6">Serene Night Blue</p>
+                        <p class="font-mono bg-gray-100 inline-block px-2 py-1 rounded-md text-sm">#2C3E50</p>
+                        <p class="mt-4 text-sm">深邃而飽和度略低的午夜藍，代表靜謐夜空，為品牌帶來穩重與信賴感。</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 輔助色 -->
+            <h3 class="text-2xl text-center mb-8 border-b-2 border-[#E1C4B9] pb-2">輔助色 | Accent Color</h3>
+            <div class="grid md:grid-cols-3 gap-8 mb-12 justify-center">
+                 <div class="md:col-start-2 color-card rounded-lg overflow-hidden shadow-lg bg-white">
+                    <div class="h-48" style="background-color: #D4AF37;"></div>
+                    <div class="p-6">
+                        <h4 class="text-xl font-semibold">星點金</h4>
+                        <p class="text-gray-500 mb-2">Starlight Gold</p>
+                        <p class="font-mono bg-gray-100 inline-block px-2 py-1 rounded-md text-sm">#D4AF37</p>
+                        <p class="mt-4 text-sm">不過於張揚的啞光金，象徵星辰微光，用於點綴，瞬間提升精緻度。</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 中性色 -->
+            <h3 class="text-2xl text-center mb-8 border-b-2 border-[#E1C4B9] pb-2">中性色 | Neutral Colors</h3>
+            <div class="grid md:grid-cols-2 gap-8">
+                <div class="color-card rounded-lg overflow-hidden shadow-lg bg-white">
+                    <div class="h-48" style="background-color: #F8F5F2; border: 1px solid #eee;"></div>
+                    <div class="p-6">
+                        <h4 class="text-xl font-semibold">月光白</h4>
+                        <p class="text-gray-500 mb-2">Moonlight White</p>
+                        <p class="font-mono bg-gray-100 inline-block px-2 py-1 rounded-md text-sm">#F8F5F2</p>
+                        <p class="mt-4 text-sm">溫暖的米白色，如同溫潤的月光，是品牌視覺最主要的背景基石。</p>
+                    </div>
+                </div>
+                <div class="color-card rounded-lg overflow-hidden shadow-lg bg-white">
+                    <div class="h-48" style="background-color: #A9A9A9;"></div>
+                    <div class="p-6">
+                        <h4 class="text-xl font-semibold">晨霧灰</h4>
+                        <p class="text-gray-500 mb-2">Morning Mist Grey</p>
+                        <p class="font-mono bg-gray-100 inline-block px-2 py-1 rounded-md text-sm">#A9A9A9</p>
+                        <p class="mt-4 text-sm">柔和的中性灰，用於內文或次要資訊，讓視覺閱讀更為舒適。</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- 色彩搭配與應用場景 -->
+        <section class="mt-20">
+            <h2 class="text-3xl text-center mb-12">色彩搭配與應用場景</h2>
+            <div class="grid lg:grid-cols-3 gap-8">
+
+                <!-- 搭配一：溫柔主調 -->
+                <div class="color-card bg-white rounded-lg shadow-lg p-6 flex flex-col">
+                    <h3 class="text-xl font-semibold mb-4">溫柔主調：溫暖與感性</h3>
+                    <div class="flex space-x-2 mb-4">
+                        <div class="w-10 h-10 rounded-full" style="background-color: #E1C4B9;"></div>
+                        <div class="w-10 h-10 rounded-full" style="background-color: #F8F5F2; border: 1px solid #eee;"></div>
+                        <div class="w-10 h-10 rounded-full" style="background-color: #A9A9A9;"></div>
+                        <div class="w-10 h-10 rounded-full" style="background-color: #D4AF37;"></div>
+                    </div>
+                    <p class="text-sm text-gray-600 mb-4 flex-grow">以「月塵玫瑰」為主，搭配溫潤的「月光白」與「晨霧灰」，並以「星點金」作為點綴。這個組合營造出品牌最核心的溫柔、親切與女性氣質。</p>
+                    <div>
+                        <h4 class="font-semibold mb-2">應用場景：</h4>
+                        <ul class="list-disc list-inside text-sm space-y-1">
+                            <li>Instagram 主要視覺風格</li>
+                            <li>品牌故事、創辦人介紹頁面</li>
+                            <li>感謝卡、襯紙、緞帶等輔助包材</li>
+                            <li>情人節、母親節等感性行銷活動</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- 搭配二：靜謐主調 -->
+                <div class="color-card bg-white rounded-lg shadow-lg p-6 flex flex-col">
+                    <h3 class="text-xl font-semibold mb-4">靜謐主調：專業與信賴</h3>
+                    <div class="flex space-x-2 mb-4">
+                        <div class="w-10 h-10 rounded-full" style="background-color: #2C3E50;"></div>
+                        <div class="w-10 h-10 rounded-full" style="background-color: #F8F5F2; border: 1px solid #eee;"></div>
+                        <div class="w-10 h-10 rounded-full" style="background-color: #D4AF37;"></div>
+                    </div>
+                    <p class="text-sm text-gray-600 mb-4 flex-grow">以「靜謐夜藍」為主，搭配乾淨的「月光白」，並以「星點金」提升奢華感。這個組合傳達了品牌的專業、穩重與高級質感。</p>
+                     <div>
+                        <h4 class="font-semibold mb-2">應用場景：</h4>
+                        <ul class="list-disc list-inside text-sm space-y-1">
+                            <li>官方網站的頁首 (Header) 與頁尾 (Footer)</li>
+                            <li>限量款、高階系列的發表</li>
+                            <li>產品珠寶盒、品牌提袋等主要包裝</li>
+                            <li>EDM (電子報)、正式公告</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- 搭配三：高光點綴 -->
+                <div class="color-card bg-white rounded-lg shadow-lg p-6 flex flex-col">
+                    <h3 class="text-xl font-semibold mb-4">高光點綴：行動與促銷</h3>
+                    <div class="flex space-x-2 mb-4">
+                        <div class="w-10 h-10 rounded-full" style="background-color: #D4AF37;"></div>
+                        <div class="w-10 h-10 rounded-full" style="background-color: #2C3E50;"></div>
+                         <div class="w-10 h-10 rounded-full" style="background-color: #FFFFFF; border: 1px solid #eee;"></div>
+                    </div>
+                    <p class="text-sm text-gray-600 mb-4 flex-grow">在「靜謐夜藍」或「月塵玫瑰」的基礎上，大膽地使用「星點金」，創造出最引人注目的視覺焦點，有效引導顧客的注意力。</p>
+                     <div>
+                        <h4 class="font-semibold mb-2">應用場景：</h4>
+                        <ul class="list-disc list-inside text-sm space-y-1">
+                            <li>網站上的「加入購物車」、「立即購買」按鈕</li>
+                            <li>促銷活動、折扣碼的標示</li>
+                            <li>節慶行銷活動（聖誕節、週年慶）</li>
+                            <li>Instagram 限時動態的互動貼紙</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Application Mockups -->
+        <section class="mt-20">
+            <h2 class="text-3xl text-center mb-12">色彩應用範例</h2>
+            <div class="grid md:grid-cols-2 gap-10 items-center">
+                <!-- Social Media Mockup -->
+                <div class="text-center">
+                    <h3 class="text-xl mb-4">社群媒體視覺</h3>
+                    <div class="bg-[#E1C4B9] p-8 rounded-xl shadow-2xl aspect-square flex flex-col justify-center items-center">
+                        <!-- === LOGO UPDATED HERE === -->
+                        <img src="https://i.imgur.com/8Q5Yf6E.png" alt="LUNÉ Logo" class="w-32 h-auto mb-4">
+                        <h4 class="text-2xl text-white" style="font-family: 'Noto Serif TC', serif;">LUNÉ</h4>
+                        <p class="text-white/80 mt-2 text-sm">為你的日常，寫一首詩。</p>
+                    </div>
+                </div>
+                <!-- Packaging Mockup -->
+                <div class="text-center">
+                    <h3 class="text-xl mb-4">產品包裝概念</h3>
+                     <div class="bg-[#2C3E50] p-8 rounded-xl shadow-2xl aspect-square flex flex-col justify-center items-center">
+                        <div class="border-2 border-[#D4AF37]/50 p-6 rounded-lg text-center">
+                            <!-- === LOGO UPDATED HERE === -->
+                            <img src="https://i.imgur.com/8Q5Yf6E.png" alt="LUNÉ Logo" class="w-24 h-auto mb-4 logo-on-dark">
+                            <h4 class="text-2xl text-[#D4AF37]" style="font-family: 'Noto Serif TC', serif;">LUNÉ</h4>
+                            <p class="text-[#D4AF37]/70 mt-2 text-xs tracking-widest">JEWELRY</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </div>
+
+    <footer class="text-center p-6 mt-12">
+        <p class="text-sm text-[#A9A9A9]">&copy; 2025 LUNÉ. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
